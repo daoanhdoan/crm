@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\crm\CrmToolbarHandler;
+
+/**
+ * Implements hook_toolbar().
+ */
+function crm_toolbar() {
+  return \Drupal::service('class_resolver')
+    ->getInstanceFromDefinition(CrmToolbarHandler::class)
+    ->toolbar();
+}
