@@ -2,7 +2,7 @@
     "name" : "daoanhdoan/crm",
     "description": "CRM",
     "type" : "drupal-custom-module",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0+",
     "extra": {
         "installer-name": "crm"
     },
